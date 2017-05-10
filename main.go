@@ -28,6 +28,7 @@ func main() {
 	db, err := sql.Open("postgres", psqlInfo)
 
 	fmt.Printf("This is a temp string!")
+	fmt.Println("This is a simple print function!")
 	if err != nil {
 		panic(err)
 	}
